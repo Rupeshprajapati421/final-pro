@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -23,7 +24,7 @@ export default function Navbar() {
         </li>
       </ul>
       <button className='p-[10px] bg-blue-600 w-[100px] rounded-[30px] mr-[80px] border-0 shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-amber-400 transition-all duration-300 text-white font-semibold'>
-        Sign In
+       <Link to="/allproduct"> Sign In</Link>
       </button>
     </nav>
   );
