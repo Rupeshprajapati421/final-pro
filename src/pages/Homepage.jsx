@@ -4,6 +4,7 @@ import Home from '../components/Home'
 import Footer from '../components/Footer'
 import Product from '../components/Product'
 import About from '../components/About.jsx'
+import Contact from '../components/contact.jsx'
 
 function Homepage() {
     return (
@@ -12,6 +13,8 @@ function Homepage() {
             <Home />
             <About />
             <Product />
+            <Contact/>
+            
             <Footer />
 
         </>

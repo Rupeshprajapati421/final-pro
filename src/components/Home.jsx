@@ -26,9 +26,10 @@ export default function Home() {
       </p>
 
       <div className="flex items-center mt-6 gap-4 mr-">
-        <button className="bg-blue-500 group text-white p-[12px] w-[150px] rounded-[20px] font-semibold hover:bg-blue-600">
-         <Link to="/allproduct"> Get Started</Link>
-        </button>
+         <Link to="/allproduct"><button className="bg-blue-500 group text-white p-[12px] w-[150px] rounded-[20px] font-semibold hover:bg-blue-900 cursor-pointer ">
+         
+         Get Started </button></Link>
+        
         <button className="bg-yellow-400 text-white p-3 rounded-full hover:bg-yellow-500 border-0">
           <img src={play} alt="" className='h-5 w-5' />
         </button>
@@ -60,7 +61,7 @@ export default function Home() {
 
 
     </div>
-  <hr className='border-b border-gray-600 w-full' />
+  <hr className='border-b border-gray-400 w-[70%] mx-auto' />
       </>
   )
 }

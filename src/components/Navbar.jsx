@@ -16,16 +16,19 @@ export default function Navbar() {
         <li>
           <a href="#about" className="text-black font-medium hover:text-amber-600 transition">About</a>
         </li>
-        <li>
-          <a href="#contact" className="text-black font-medium hover:text-amber-600 transition">Contact</a>
-        </li>
+       
         <li>
           <a href="#product" className="text-black font-medium hover:text-amber-600 transition">Product</a>
         </li>
+         <li>
+          <a href="#contact" className="text-black font-medium hover:text-amber-600 transition">Contact</a>
+        </li>
       </ul>
-      <button className='p-[10px] bg-blue-600 w-[100px] rounded-[30px] mr-[80px] border-0 shadow-lg hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-amber-400 transition-all duration-300 text-white font-semibold'>
-       <Link to="/allproduct"> Sign In</Link>
-      </button>
+       <Link to="/allproduct">
+         <button className='p-[10px] bg-blue-500 w-[100px] rounded-[30px] mr-[80px] border-0 shadow-lg hover:bg-blue-800 transition-all duration-300 text-white font-semibold cursor-pointer'>
+          Sign In </button>
+       </Link>
+     
     </nav>
   );
 }
