@@ -53,7 +53,7 @@ function about() {
         {/* Image */}
         <div className="h-[450px] w-[50%] bg-amber-200 relative flex items-center justify-center">
           <img 
-            src="src/assets/aboutus.png"
+            src="https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg?t=st=1753979371~exp=1753982971~hmac=72d2bb1739d7fce40975e02006a675169046e3d4b428419382cc9ee4757ec749&w=740"
             alt="Girl with tablet"
             className="absolute inset-0 w-full h-full object-cover rounded-xl"
           />

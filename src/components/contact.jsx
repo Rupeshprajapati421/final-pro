@@ -26,7 +26,7 @@ function Contact() {
 
       {/*left div8*/}
         <div className='h-full w-[40%] bg-white flex items-center justify-center'>
-          <img src="src/assets/girl.png" alt="img" className="w-full h-full object-cover rounded-xl" />
+          <img src="https://img.freepik.com/premium-vector/customer-service-girl-talking-guy_118167-12044.jpg?w=740" alt="img" className="w-full h-full object-cover rounded-xl" />
         </div>
 
       {/*right div*/}
