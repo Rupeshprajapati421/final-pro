@@ -24,7 +24,7 @@ function Contact() {
         <div className='w-full bg-white flex flex-col md:flex-row items-center justify-center gap-8'>
           {/*left div*/}
           <div className='w-full md:w-[40%] flex items-center justify-center mb-6 md:mb-0'>
-            <img src="https://img.freepik.com/premium-vector/customer-service-girl-talking-guy_118167-12044.jpg?w=740" alt="img" className="w-full h-64 md:h-full object-cover rounded-xl" />
+            <img src="https://img.freepik.com/premium-vector/customer-service-girl-talking-guy_118167-12044.jpg?w=740" alt="img" className="w-full max-w-xs sm:max-w-sm md:max-w-full h-48 sm:h-64 md:h-full object-cover rounded-xl" />
           </div>
           {/*right div*/}
           <div className='w-full md:w-[60%] flex items-center justify-center'>

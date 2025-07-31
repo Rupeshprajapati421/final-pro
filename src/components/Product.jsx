@@ -6,7 +6,7 @@ function Product() {
     <div id='product' className='min-h-screen w-full bg-white flex flex-col items-center justify-center gap-8 px-2'>
 
       <div className='w-full flex items-center justify-center py-4'>
-        <h1 className='font-bold text-2xl sm:text-3xl md:text-[37px] text-red-800 text-center'>Here, You can buy product code offer for more</h1>
+        <h1 className='font-bold text-2xl sm:text-3xl md:text-[37px] text-red-800 text-center'>Here, You can buy product code </h1>
       </div>
 
       {/*upper div*/}
