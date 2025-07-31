@@ -7,7 +7,7 @@ function Product() {
 
       <div className='h-[8%] w-full 
       flex items-center justify-center'> 
-        <h1 className=' font-bold text-[37px] text-red-800'>Here, You can buy product code</h1>
+        <h1 className=' font-bold text-[37px] text-red-800'>Here, You can buy product code offer for more</h1>
        
       </div>
 

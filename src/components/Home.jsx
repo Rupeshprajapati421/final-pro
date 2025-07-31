@@ -38,8 +38,9 @@ export default function Home() {
       
       <div className="flex flex-wrap items-center gap-4 mt-6 text-sm text-gray-700">
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5 bg-blue-500 rounded-full"></span>
+          <span className="C"></span>
           Experienced mentor
+          
         </div>
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 bg-blue-500 rounded-full"></span>
